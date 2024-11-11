@@ -3,5 +3,8 @@
   "item.avaliexpanded.lume_bit": "Lume Bit",
 
   "block.avaliexpanded.lume_block": "Block of Lume",
-  "block.avaliexpanded.lume_ore": "Lume Ore"
+  "block.avaliexpanded.lume_ore": "Lume Ore",
+
+  "creativetab.avaliexpanded.avali_items": "Avali Items",
+  "creativetab.avaliexpanded.avali_blocks": "Avali Blocks"
 }
