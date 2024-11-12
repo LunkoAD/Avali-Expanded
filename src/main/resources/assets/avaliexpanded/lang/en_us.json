@@ -1,10 +1,13 @@
 {
   "item.avaliexpanded.lume": "Lume",
   "item.avaliexpanded.lume_bit": "Lume Bit",
+  "item.avaliexpanded.avali_icon": "The Great Avali Race",
+  "item.avaliexpanded.protogen_icon": "The Great Protogen Race",
 
   "block.avaliexpanded.lume_block": "Block of Lume",
   "block.avaliexpanded.lume_ore": "Lume Ore",
+  "block.avaliexpanded.lume_deepslate_ore": "Lume Deepslate Ore",
 
-  "creativetab.avaliexpanded.avali_items": "Avali Items",
-  "creativetab.avaliexpanded.avali_blocks": "Avali Blocks"
+  "creativetab.avaliexpanded.avali_items": "Avali Tab",
+  "creativetab.avaliexpanded.protogen_items": "Protogen Tab"
 }

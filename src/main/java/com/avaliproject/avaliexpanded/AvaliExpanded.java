@@ -58,11 +58,14 @@ public class AvaliExpanded {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LUME);
             event.accept(ModItems.LUME_BIT);
+            event.accept(ModItems.AVALI_ICON);
+            event.accept(ModItems.PROTOGEN_ICON);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.LUME_BLOCK);
             event.accept(ModBlocks.LUME_ORE);
+            event.accept(ModBlocks.LUME_DEEPSLATE_ORE);
         }
     }
 

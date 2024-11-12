@@ -17,20 +17,22 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AvaliExpanded.MOD_ID);
 
     public static final Supplier<CreativeModeTab> AVALI_ITEMS_TAB = CREATIVE_MODE_TAB.register("avali_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LUME.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AVALI_ICON.get()))
                     .title(Component.translatable("creativetab.avaliexpanded.avali_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.LUME);
                         output.accept(ModItems.LUME_BIT);
-                    }).build());
-
-    public static final Supplier<CreativeModeTab> AVALI_BLOCK_TAB = CREATIVE_MODE_TAB.register("avali_blocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.LUME_BLOCK))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(AvaliExpanded.MOD_ID, "avali_items_tab"))
-                    .title(Component.translatable("creativetab.avaliexpanded.avali_blocks"))
-                    .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.LUME_BLOCK);
                         output.accept(ModBlocks.LUME_ORE);
+                        output.accept(ModBlocks.LUME_DEEPSLATE_ORE);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> PROTOGEN_ITEM_TAB = CREATIVE_MODE_TAB.register("protogen_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PROTOGEN_ICON.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(AvaliExpanded.MOD_ID, "avali_items_tab"))
+                    .title(Component.translatable("creativetab.avaliexpanded.protogen_items"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.PROTOGEN_ICON);
                     }).build());
 
     public static void register (IEventBus eventBus) {

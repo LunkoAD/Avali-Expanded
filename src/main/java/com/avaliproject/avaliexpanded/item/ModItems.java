@@ -13,6 +13,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> LUME_BIT = ITEMS.register("lume_bit",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AVALI_ICON = ITEMS.register("avali_icon",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PROTOGEN_ICON = ITEMS.register("protogen_icon",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
