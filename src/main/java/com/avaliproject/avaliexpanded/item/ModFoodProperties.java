@@ -16,4 +16,7 @@ public class ModFoodProperties {
     public static final FoodProperties KIRI_JAM = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
     public static final FoodProperties PIRU_NOODLE = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
     public static final FoodProperties PIRUZA = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
+    public static final FoodProperties AVALI_BBQ = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
+    public static final FoodProperties KIRI_CIDER = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
+    public static final FoodProperties TUCKER = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
 }

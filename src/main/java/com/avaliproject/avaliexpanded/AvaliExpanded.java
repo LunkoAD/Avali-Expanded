@@ -62,6 +62,20 @@ public class AvaliExpanded {
             event.accept(ModItems.SYNC_CRYSTAL);
             event.accept(ModItems.AERO_CRYSTAL);
             event.accept(ModItems.AEROGEL);
+            event.accept(ModItems.REFINED_AEGISALT);
+            event.accept(ModItems.RAW_AEGISALT);
+            event.accept(ModItems.RAW_DURASTEEL);
+            event.accept(ModItems.RAW_TITANIUM);
+            event.accept(ModItems.TITANIUM_INGOT);
+            event.accept(ModItems.DURASTEEL_INGOT);
+            event.accept(ModItems.AEROMER);
+            event.accept(ModItems.AVALI_BOTTLE);
+            event.accept(ModItems.FIBER);
+            event.accept(ModItems.NAKATI_BARK);
+            event.accept(ModItems.NANITE_INJECTOR);
+            event.accept(ModItems.PROTOSTEEL_INGOT);
+            event.accept(ModItems.WOVEN_FABRIC);
+            event.accept(ModItems.WOVEN_GRAPHENE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -74,6 +88,12 @@ public class AvaliExpanded {
             event.accept(ModBlocks.THERMAL_CRYSTAL_ORE);
             event.accept(ModBlocks.SYNC_CRYSTAL_ORE);
             event.accept(ModBlocks.SYNC_CRYSTAL_DEEPSLATE_ORE);
+            event.accept(ModBlocks.AEGISALT_ORE);
+            event.accept(ModBlocks.AEGISALT_DEEPSLATE_ORE);
+            event.accept(ModBlocks.TITANIUM_ORE);
+            event.accept(ModBlocks.TITANIUM_DEEPSLATE_ORE);
+            event.accept(ModBlocks.DURASTEEL_ORE);
+            event.accept(ModBlocks.DURASTEEL_DEEPSLATE_ORE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
@@ -87,6 +107,9 @@ public class AvaliExpanded {
             event.accept(ModItems.PIRU_FLOUR);
             event.accept(ModItems.PIRU_NOODLE);
             event.accept(ModItems.PIRUZA);
+            event.accept(ModItems.AVALI_BBQ);
+            event.accept(ModItems.KIRI_CIDER);
+            event.accept(ModItems.TUCKER);
         }
     }
 

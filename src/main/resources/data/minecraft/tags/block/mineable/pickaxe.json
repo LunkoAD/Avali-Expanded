@@ -9,6 +9,12 @@
     "avaliexpanded:thermal_crystal_deepslate_ore",
     "avaliexpanded:aero_crystal_ore",
     "avaliexpanded:sync_crystal_ore",
-    "avaliexpanded:thermal_crystal_ore"
+    "avaliexpanded:thermal_crystal_ore",
+    "avaliexpanded:durasteel_deepslate_ore",
+    "avaliexpanded:aegisalt_deepslate_ore",
+    "avaliexpanded:titanium_deepslate_ore",
+    "avaliexpanded:durasteel_ore",
+    "avaliexpanded:aegisalt_ore",
+    "avaliexpanded:titanium_ore"
   ]
 }

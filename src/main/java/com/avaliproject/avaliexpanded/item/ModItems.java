@@ -46,7 +46,40 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SYNC_CRYSTAL = ITEMS.register("sync_crystal",
             () -> new Item(new Item.Properties()));
-
+    public static final DeferredItem<Item> RAW_DURASTEEL = ITEMS.register("raw_durasteel",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_AEGISALT = ITEMS.register("raw_aegisalt",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_TITANIUM = ITEMS.register("raw_titanium",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> REFINED_AEGISALT = ITEMS.register("refined_aegisalt",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DURASTEEL_INGOT = ITEMS.register("durasteel_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AEROMER = ITEMS.register("aeromer",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> AVALI_BOTTLE = ITEMS.register("avali_bottle",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FIBER = ITEMS.register("fiber",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NAKATI_BARK = ITEMS.register("nakati_bark",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NANITE_INJECTOR = ITEMS.register("nanite_injector",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PROTOSTEEL_INGOT = ITEMS.register("protosteel_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> WOVEN_FABRIC = ITEMS.register("woven_fabric",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> WOVEN_GRAPHENE = ITEMS.register("woven_graphene",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TUCKER = ITEMS.register("tucker",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KIRI_CURRY)));
+    public static final DeferredItem<Item> KIRI_CIDER = ITEMS.register("kiri_cider",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KIRI_CURRY)));
+    public static final DeferredItem<Item> AVALI_BBQ = ITEMS.register("avali_bbq",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KIRI_CURRY)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

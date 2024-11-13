@@ -45,6 +45,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SYNC_CRYSTAL);
                         output.accept(ModItems.AERO_CRYSTAL);
                         output.accept(ModItems.THERMAL_CRYSTAL);
+                        output.accept(ModBlocks.AEGISALT_ORE);
+                        output.accept(ModBlocks.AEGISALT_DEEPSLATE_ORE);
+                        output.accept(ModItems.REFINED_AEGISALT);
+                        output.accept(ModItems.RAW_AEGISALT);
+                        output.accept(ModItems.WOVEN_FABRIC);
+                        output.accept(ModItems.WOVEN_GRAPHENE);
+                        output.accept(ModItems.AEROMER);
+                        output.accept(ModItems.AVALI_BOTTLE);
+                        output.accept(ModItems.FIBER);
+                        output.accept(ModItems.NAKATI_BARK);
+                        output.accept(ModItems.AVALI_BBQ);
+                        output.accept(ModItems.KIRI_CIDER);
+                        output.accept(ModItems.TUCKER);
                     }).build());
 
     public static final Supplier<CreativeModeTab> PROTOGEN_ITEM_TAB = CREATIVE_MODE_TAB.register("protogen_items_tab",
@@ -52,7 +65,20 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(AvaliExpanded.MOD_ID, "avali_items_tab"))
                     .title(Component.translatable("creativetab.avaliexpanded.protogen_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.PROTOGEN_ICON);
+                        output.accept(ModBlocks.TITANIUM_ORE);
+                        output.accept(ModBlocks.TITANIUM_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.DURASTEEL_ORE);
+                        output.accept(ModBlocks.DURASTEEL_DEEPSLATE_ORE);
+                        output.accept(ModItems.RAW_DURASTEEL);
+                        output.accept(ModItems.RAW_TITANIUM);
+                        output.accept(ModItems.TITANIUM_INGOT);
+                        output.accept(ModItems.WOVEN_FABRIC);
+                        output.accept(ModItems.WOVEN_GRAPHENE);
+                        output.accept(ModItems.NANITE_INJECTOR);
+                        output.accept(ModItems.PROTOSTEEL_INGOT);
+                        output.accept(ModItems.DURASTEEL_INGOT);
+                        output.accept(ModItems.FIBER);
+
                     }).build());
 
     public static void register (IEventBus eventBus) {
