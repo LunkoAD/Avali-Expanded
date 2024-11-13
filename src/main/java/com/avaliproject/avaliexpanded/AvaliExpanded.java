@@ -58,14 +58,35 @@ public class AvaliExpanded {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LUME);
             event.accept(ModItems.LUME_BIT);
-            event.accept(ModItems.AVALI_ICON);
-            event.accept(ModItems.PROTOGEN_ICON);
+            event.accept(ModItems.THERMAL_CRYSTAL);
+            event.accept(ModItems.SYNC_CRYSTAL);
+            event.accept(ModItems.AERO_CRYSTAL);
+            event.accept(ModItems.AEROGEL);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.LUME_BLOCK);
             event.accept(ModBlocks.LUME_ORE);
             event.accept(ModBlocks.LUME_DEEPSLATE_ORE);
+            event.accept(ModBlocks.AERO_CRYSTAL_ORE);
+            event.accept(ModBlocks.AERO_CRYSTAL_DEEPSLATE_ORE);
+            event.accept(ModBlocks.THERMAL_CRYSTAL_DEEPSLATE_ORE);
+            event.accept(ModBlocks.THERMAL_CRYSTAL_ORE);
+            event.accept(ModBlocks.SYNC_CRYSTAL_ORE);
+            event.accept(ModBlocks.SYNC_CRYSTAL_DEEPSLATE_ORE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.KIRIKIRI_PIE);
+            event.accept(ModItems.AVALI_MUFFIN);
+            event.accept(ModItems.AVALON_TACO);
+            event.accept(ModItems.GROOU);
+            event.accept(ModItems.GROOU_JUICE);
+            event.accept(ModItems.KIRI_JAM);
+            event.accept(ModItems.KIRI_CURRY);
+            event.accept(ModItems.PIRU_FLOUR);
+            event.accept(ModItems.PIRU_NOODLE);
+            event.accept(ModItems.PIRUZA);
         }
     }
 

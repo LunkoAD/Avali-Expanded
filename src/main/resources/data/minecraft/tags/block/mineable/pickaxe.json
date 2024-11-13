@@ -3,6 +3,12 @@
   "values": [
     "avaliexpanded:lume_block",
     "avaliexpanded:lume_ore",
-    "avaliexpanded:lume_deepslate_ore"
+    "avaliexpanded:lume_deepslate_ore",
+    "avaliexpanded:aero_crystal_deepslate_ore",
+    "avaliexpanded:sync_crystal_deepslate_ore",
+    "avaliexpanded:thermal_crystal_deepslate_ore",
+    "avaliexpanded:aero_crystal_ore",
+    "avaliexpanded:sync_crystal_ore",
+    "avaliexpanded:thermal_crystal_ore"
   ]
 }

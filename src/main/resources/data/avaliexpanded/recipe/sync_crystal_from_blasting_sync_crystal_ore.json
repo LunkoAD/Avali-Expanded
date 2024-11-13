@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "lume_bit",
+  "ingredient": {
+    "item": "avaliexpanded:sync_crystal_ore"
+  },
+   "result": {
+    "count": 1,
+    "id": "avaliexpanded:sync_crystal"
+  }
+}

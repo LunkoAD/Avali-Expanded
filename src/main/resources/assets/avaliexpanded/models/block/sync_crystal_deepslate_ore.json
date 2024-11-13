@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "avaliexpanded:block/sync_crystal_deepslate_ore"
+  }
+}

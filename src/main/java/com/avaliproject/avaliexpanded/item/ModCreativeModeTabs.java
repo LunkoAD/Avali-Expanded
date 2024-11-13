@@ -25,6 +25,26 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LUME_BLOCK);
                         output.accept(ModBlocks.LUME_ORE);
                         output.accept(ModBlocks.LUME_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.THERMAL_CRYSTAL_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.THERMAL_CRYSTAL_ORE);
+                        output.accept(ModBlocks.AERO_CRYSTAL_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.SYNC_CRYSTAL_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.SYNC_CRYSTAL_ORE);
+                        output.accept(ModBlocks.AERO_CRYSTAL_ORE);
+                        output.accept(ModItems.KIRIKIRI_PIE);
+                        output.accept(ModItems.AVALI_MUFFIN);
+                        output.accept(ModItems.AVALON_TACO);
+                        output.accept(ModItems.GROOU);
+                        output.accept(ModItems.GROOU_JUICE);
+                        output.accept(ModItems.KIRI_JAM);
+                        output.accept(ModItems.KIRI_CURRY);
+                        output.accept(ModItems.PIRU_NOODLE);
+                        output.accept(ModItems.PIRUZA);
+                        output.accept(ModItems.AEROGEL);
+                        output.accept(ModItems.PIRU_FLOUR);
+                        output.accept(ModItems.SYNC_CRYSTAL);
+                        output.accept(ModItems.AERO_CRYSTAL);
+                        output.accept(ModItems.THERMAL_CRYSTAL);
                     }).build());
 
     public static final Supplier<CreativeModeTab> PROTOGEN_ITEM_TAB = CREATIVE_MODE_TAB.register("protogen_items_tab",

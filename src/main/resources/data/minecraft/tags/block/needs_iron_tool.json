@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "avaliexpanded:lume_ore"
+    "avaliexpanded:lume_ore",
+    "avaliexpanded:aero_crystal_ore",
+    "avaliexpanded:sync_crystal_ore",
+    "avaliexpanded:thermal_crystal_ore"
   ]
 }
