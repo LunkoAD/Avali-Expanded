@@ -58,6 +58,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AVALI_BBQ);
                         output.accept(ModItems.KIRI_CIDER);
                         output.accept(ModItems.TUCKER);
+                        output.accept(ModItems.KIRI_FRUIT);
+                        output.accept(ModItems.SPICY_JERKY);
                     }).build());
 
     public static final Supplier<CreativeModeTab> PROTOGEN_ITEM_TAB = CREATIVE_MODE_TAB.register("protogen_items_tab",

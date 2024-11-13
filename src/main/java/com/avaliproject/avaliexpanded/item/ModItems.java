@@ -75,11 +75,16 @@ public class ModItems {
     public static final DeferredItem<Item> WOVEN_GRAPHENE = ITEMS.register("woven_graphene",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TUCKER = ITEMS.register("tucker",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.KIRI_CURRY)));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.TUCKER)));
     public static final DeferredItem<Item> KIRI_CIDER = ITEMS.register("kiri_cider",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.KIRI_CURRY)));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KIRI_CIDER)));
+    public static final DeferredItem<Item> KIRI_FRUIT = ITEMS.register("kiri_fruit",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KIRI_FRUIT)));
+    public static final DeferredItem<Item> SPICY_JERKY = ITEMS.register("spicy_jerky",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SPICY_JERKY)));
     public static final DeferredItem<Item> AVALI_BBQ = ITEMS.register("avali_bbq",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.KIRI_CURRY)));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.AVALI_BBQ)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

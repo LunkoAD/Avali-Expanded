@@ -110,6 +110,8 @@ public class AvaliExpanded {
             event.accept(ModItems.AVALI_BBQ);
             event.accept(ModItems.KIRI_CIDER);
             event.accept(ModItems.TUCKER);
+            event.accept(ModItems.KIRI_FRUIT);
+            event.accept(ModItems.SPICY_JERKY);
         }
     }
 
