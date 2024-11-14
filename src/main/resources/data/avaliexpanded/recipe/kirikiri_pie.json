@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "X": {
+      "item": "minecraft:egg"
+    },
+    "B": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "avaliexpanded:kiri_fruit"
+    },
+    "A": {
+      "item": "avaliexpanded:piru_flour"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "XBX",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaliexpanded:kirikiri_pie"
+  }
+}

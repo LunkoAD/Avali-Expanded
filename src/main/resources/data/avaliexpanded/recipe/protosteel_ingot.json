@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "avaliexpanded:durasteel_ingot"
+    },
+    "B": {
+      "item": "avaliexpanded:nanite_injector"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XBX",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaliexpanded:protosteel_ingot"
+  }
+}

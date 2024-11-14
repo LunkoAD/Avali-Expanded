@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "A": {
+      "item": "avaliexpanded:piru_flour"
+    },
+    "B": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "minecraft:sugar"
+    },
+    "D": {
+      "item": "minecraft:egg"
+    },
+    "X": {
+      "item": "avaliexpanded:kiri_jam"
+    }
+  },
+  "pattern": [
+    "CDC",
+    "XBX",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaliexpanded:avali_muffin"
+  }
+}

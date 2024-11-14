@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "avaliexpanded:durasteel_ingot"
+    }
+  },
+  "pattern": [
+    "BXB",
+    "XBX",
+    "BXB"
+  ],
+  "result": {
+    "count": 2,
+    "id": "avaliexpanded:nanite_injector"
+  }
+}

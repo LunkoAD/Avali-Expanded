@@ -20,10 +20,6 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AVALI_ICON.get()))
                     .title(Component.translatable("creativetab.avaliexpanded.avali_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.LUME);
-                        output.accept(ModItems.LUME_BIT);
-                        output.accept(ModBlocks.LUME_BLOCK);
-                        output.accept(ModBlocks.LUME_ORE);
                         output.accept(ModBlocks.LUME_DEEPSLATE_ORE);
                         output.accept(ModBlocks.THERMAL_CRYSTAL_DEEPSLATE_ORE);
                         output.accept(ModBlocks.THERMAL_CRYSTAL_ORE);
@@ -31,6 +27,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SYNC_CRYSTAL_DEEPSLATE_ORE);
                         output.accept(ModBlocks.SYNC_CRYSTAL_ORE);
                         output.accept(ModBlocks.AERO_CRYSTAL_ORE);
+                        output.accept(ModBlocks.AEGISALT_ORE);
+                        output.accept(ModBlocks.AEGISALT_DEEPSLATE_ORE);
+                        output.accept(ModItems.LUME);
+                        output.accept(ModItems.LUME_BIT);
+                        output.accept(ModBlocks.LUME_BLOCK);
+                        output.accept(ModBlocks.LUME_ORE);
                         output.accept(ModItems.KIRIKIRI_PIE);
                         output.accept(ModItems.AVALI_MUFFIN);
                         output.accept(ModItems.AVALON_TACO);
@@ -45,8 +47,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SYNC_CRYSTAL);
                         output.accept(ModItems.AERO_CRYSTAL);
                         output.accept(ModItems.THERMAL_CRYSTAL);
-                        output.accept(ModBlocks.AEGISALT_ORE);
-                        output.accept(ModBlocks.AEGISALT_DEEPSLATE_ORE);
                         output.accept(ModItems.REFINED_AEGISALT);
                         output.accept(ModItems.RAW_AEGISALT);
                         output.accept(ModItems.WOVEN_FABRIC);
@@ -60,6 +60,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TUCKER);
                         output.accept(ModItems.KIRI_FRUIT);
                         output.accept(ModItems.SPICY_JERKY);
+                        output.accept(ModBlocks.AVALI_CARGO_CRATE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> PROTOGEN_ITEM_TAB = CREATIVE_MODE_TAB.register("protogen_items_tab",

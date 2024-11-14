@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "X": {
+      "item": "minecraft:glass_pane"
+    },
+    "B": {
+      "item": "avaliexpanded:kiri_fruit"
+    }
+  },
+  "pattern": [
+    "XBX",
+    "XBX",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaliexpanded:kiri_jam"
+  }
+}

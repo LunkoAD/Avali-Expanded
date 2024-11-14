@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "A": {
+      "item": "minecraft:cooked_beef"
+    },
+    "B": {
+      "item": "avaliexpanded:nakati_bark"
+    }
+  },
+  "pattern": [
+    " AB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaliexpanded:spicy_jerky"
+  }
+}

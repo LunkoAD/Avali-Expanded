@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "X": {
+      "item": "avaliexpanded:groou"
+    },
+    "B": {
+      "item": "avaliexpanded:avali_bottle"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XBX",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaliexpanded:groou_juice"
+  }
+}

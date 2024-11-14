@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "X": {
+      "item": "avaliexpanded:piru_flour"
+    },
+    "B": {
+      "item": "avaliexpanded:kiri_fruit"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XBX",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaliexpanded:piru_noodle"
+  }
+}

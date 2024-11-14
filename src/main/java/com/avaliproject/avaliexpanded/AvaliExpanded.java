@@ -96,6 +96,10 @@ public class AvaliExpanded {
             event.accept(ModBlocks.DURASTEEL_DEEPSLATE_ORE);
         }
 
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
+            event.accept(ModBlocks.AVALI_CARGO_CRATE);
+        }
+
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.KIRIKIRI_PIE);
             event.accept(ModItems.AVALI_MUFFIN);
