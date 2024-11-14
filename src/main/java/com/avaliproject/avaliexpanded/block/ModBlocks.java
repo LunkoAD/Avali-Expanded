@@ -2,7 +2,6 @@ package com.avaliproject.avaliexpanded.block;
 
 
 import com.avaliproject.avaliexpanded.AvaliExpanded;
-import com.avaliproject.avaliexpanded.block.custom.AvaliCargoCrate;
 import com.avaliproject.avaliexpanded.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -48,9 +47,6 @@ public class ModBlocks {
     public static final DeferredBlock<Block> SYNC_CRYSTAL_ORE = registerBlock("sync_crystal_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-
-    public static final DeferredBlock<Block> AVALI_CARGO_CRATE = registerBlock("avali_cargo_crate",
-            () -> new AvaliCargoCrate(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> DURASTEEL_DEEPSLATE_ORE = registerBlock("durasteel_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
