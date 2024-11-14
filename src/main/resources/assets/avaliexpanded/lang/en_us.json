@@ -36,6 +36,8 @@
   "item.avaliexpanded.avali_bbq": "Avali BBQ",
   "item.avaliexpanded.kiri_fruit": "Kiri Fruit",
   "item.avaliexpanded.spicy_jerky": "Spicy Jerky",
+  "item.avaliexpanded.nakati_ovoid": "Nakati Ovoid",
+  "item.avaliexpanded.piru_colony": "Piru Colony",
 
   "item.avaliexpanded.thermal_crystal": "Thermal Crystal",
 
@@ -57,5 +59,37 @@
   "block.avaliexpanded.avali_cargo_crate": "Avali Cargo Crate",
 
   "creativetab.avaliexpanded.avali_items": "Avali Tab",
-  "creativetab.avaliexpanded.protogen_items": "Protogen Tab"
+  "creativetab.avaliexpanded.protogen_items": "Protogen Tab",
+
+  "tooltip.avaliextended.aerogel.shift_down": "The aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.",
+  "tooltip.avaliextended.aerogel": "Press §eShift§r for more Information",
+  "tooltip.avaliexpanded.piru_colony.tooltip": "Small, barnacle-like colonies which grow long frond-like feeding filaments.",
+  "tooltip.avaliexpanded.nakati_ovoid.tooltip": "A biolumiscent ovoid. Eventually this will grow into a colony.",
+  "tooltip.avaliexpanded.avali_bbq.tooltip": "Sweet and sticky ribs. Delicious!",
+  "tooltip.avaliexpanded.spicy_jerky.tooltip": "Chunks of seasoned jerky, popular with hunters and explorers.",
+  "tooltip.avaliexpanded.kiri_fruit.tooltip": "The fruiting body of a subterranean slime mould. This one has already sporing though.",
+  "tooltip.avaliexpanded.kiri_cider.tooltip": "Slightly fermented kiri juice including a bit the ground-up rind and a dash of nakati",
+  "tooltip.avaliexpanded.tucker.tooltip": "Just like normal cookies, only spikier.",
+  "tooltip.avaliexpanded.woven_graphene.tooltip": "Grapene that's been woven specially for use in avaly crafting stations.",
+  "tooltip.avaliexpanded.woven_fabric.tooltip": "A small square of woven fabric",
+  "tooltip.avaliexpanded.protosteel_ingot.tooltip": "A complex nanite-infused alloy, used to create strong weapons and armour.",
+  "tooltip.avaliexpanded.nanite_injector.tooltip": "A small Nanite Injector, used in crafting recipes.",
+  "tooltip.avaliexpanded.nakati_bark.tooltip": "The spicy bark of the nakati plant. Usually ground up before use.",
+  "tooltip.avaliexpanded.fiber.tooltip": "A set of plant fiber.",
+  "tooltip.avaliexpanded.avali_bottle.tooltip": "A bottle made in aerogel, able to contain and conserve it's content",
+  "tooltip.avaliexpanded.aeromer.tooltip": "All the benefits of aerogel, but with structural integrity!",
+  "tooltip.avaliexpanded.titanium_ingot.tooltip": "Result of the smelting of titanium ore primarily found in temperate climate.",
+  "tooltip.avaliexpanded.durasteel_ingot.tooltip": "Result of the smelting of durasteel ore primarily found in arid climate.",
+  "tooltip.avaliexpanded.refined_aegisalt.tooltip": "Result of the smelting of aegisalt ore primarily found in cold climate.",
+  "tooltip.avaliexpanded.piru_noodle.tooltip": "Sweet noodles made from piru frond flour, a staple for young avali.",
+  "tooltip.avaliexpanded.piru_flour.tooltip": "Piru frond, ground down into a versatile flour-like substance. Not exactly edible.",
+  "tooltip.avaliexpanded.kiri_jam.tooltip": "No toast! We have avalitoast!",
+  "tooltip.avaliexpanded.kiri_curry.tooltip": "Spicy meat noodles with a rich kiri sauce.",
+  "tooltip.avaliexpanded.groou_juice.tooltip": "Cool and refreshing, unforgettable taste.",
+  "tooltip.avaliexpanded.piruza.tooltip": "A avali pizza! Or piruza?",
+  "tooltip.avaliexpanded.groou.tooltip": "uicy and sweet, similar to jelly.",
+  "tooltip.avaliexpanded.avalon_taco.tooltip": "Super-hot nakati-spiced taco; sometimes eaten on a dare by non-avali.",
+  "tooltip.avaliexpanded.avali_muffin.tooltip": "It was covered with kiri jam and decorated with some dried fruit of Tucker",
+  "tooltip.avaliexpanded.kirikiri_pie.tooltip": "A sour oculemon-filled pie with a sweet meringue topping.",
+  "tooltip.avaliexpanded.piru_frond.tooltip": "A long, fibrous frond from a piru barnacle."
 }

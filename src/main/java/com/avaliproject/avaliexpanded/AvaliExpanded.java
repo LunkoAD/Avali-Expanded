@@ -115,6 +115,8 @@ public class AvaliExpanded {
             event.accept(ModItems.TUCKER);
             event.accept(ModItems.KIRI_FRUIT);
             event.accept(ModItems.SPICY_JERKY);
+            event.accept(ModItems.NAKATI_OVOID);
+            event.accept(ModItems.PIRU_COLONY);
         }
     }
 
